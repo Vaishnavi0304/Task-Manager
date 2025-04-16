@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: #f0f2f5;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-form input, .task-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .task-form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .task-form button:hover {
+    background: #0056b3;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .filter-buttons button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    background: #eee;
+  }
+  
+  .filter-buttons button.active {
+    background: #007bff;
+    color: white;
+  }
+  
+  #task-list {
+    list-style: none;
+  }
+  
+  .task-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-details {
+    flex-grow: 1;
+  }
+  
+  .task-details.completed h3 {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .task-buttons button {
+    margin-left: 10px;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .task-buttons .edit {
+    background: #ffc107;
+  }
+  
+  .task-buttons .delete {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .task-buttons .complete {
+    background: #28a745;
+    color: white;
+  }
+  .task-form input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
